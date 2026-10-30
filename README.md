@@ -7,7 +7,7 @@
 <p align="center">Push to talk. Stay on the page.</p>
 
 <p align="center">
-  <a href="https://github.com/deklol/Sideklick/releases/latest"><img src="https://img.shields.io/github/v/release/deklol/Sideklick?color=2667E0" alt="Latest release" /></a>
+  <a href="https://github.com/deklol/Sideklick/releases/latest"><img src="https://img.shields.io/github/v/release/deklol/Sideklick?color=2667E0&amp;cacheSeconds=300" alt="Latest release" /></a>
   <img src="https://img.shields.io/badge/platform-Windows-0078D4" alt="Windows" />
   <img src="https://img.shields.io/badge/language-C%23-68217A" alt="C#" />
   <img src="https://img.shields.io/badge/portable-no_install-2667E0" alt="Portable" />
