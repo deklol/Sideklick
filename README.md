@@ -1,4 +1,5 @@
 <p align="center">
+  <a href="https://github.com/deklol/Sideklick/releases/latest"><img src="https://img.shields.io/github/v/release/deklol/Sideklick?color=2667E0" alt="Latest release" /></a>
   <img src="assets/icon.png" alt="Sideklick icon" width="96" />
 </p>
 
@@ -14,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/deklol/Sideklick/raw/refs/heads/main/downloads/Sideklick.zip"><strong>Download for Windows</strong></a>
+  <a href="https://github.com/deklol/Sideklick/releases/latest/download/Sideklick.exe"><strong>Download for Windows (.exe)</strong></a>
   &nbsp;&bull;&nbsp;
   <a href="Sideklick.cs"><strong>Source code</strong></a>
 </p>
@@ -27,7 +28,7 @@ Sideklick disables the button's normal Windows behaviour so you can keep using i
 
 ## Set it once
 
-1. Download and extract the ZIP, then open **Sideklick.exe**.
+1. [Download Sideklick.exe](https://github.com/deklol/Sideklick/releases/latest/download/Sideklick.exe) and open it. No building or installation needed.
 2. Press the side button you want to configure.
 3. Choose **Disable button**, then **Save & run quietly**.
 4. Keep your Discord PTT binding and check it works. Repeat for your other button if needed.

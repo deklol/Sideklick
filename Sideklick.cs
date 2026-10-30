@@ -55,7 +55,7 @@ static class Program {
  static void Show(){
   if(form!=null&&!form.IsDisposed){form.Show();form.Activate();return;}
   form=new Form{Text="Sideklick",ClientSize=new Size(520,435),BackColor=Color.FromArgb(247,249,252),Font=new Font("Segoe UI",10),StartPosition=FormStartPosition.CenterScreen,FormBorderStyle=FormBorderStyle.FixedSingle,MaximizeBox=false};
-  string icon=Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"Sideklick.ico");if(File.Exists(icon))form.Icon=new Icon(icon);
+  form.Icon=Icon.ExtractAssociatedIcon(Application.ExecutablePath);
   var title=new Label{Text="Sideklick",Left=28,Top=22,Width=450,Height=42,Font=new Font("Segoe UI",25,FontStyle.Bold),ForeColor=Color.FromArgb(24,35,51)};
   var subtitle=new Label{Text="Your side buttons. Your rules.",Left=30,Top=70,Width=450,Height=25,ForeColor=Color.DimGray};
   prompt=new Label{Left=30,Top=115,Width=460,Height=55};
